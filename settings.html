@@ -32,76 +32,82 @@
     <div class="container text-left py-5">
       <div class="row">
         <div class="col"></div>
-        <div class="col-5">
+        <div class="col-6">
           <div>
             <h1 class="border-bottom">Edit Profile</h1>
           </div>
-          <div class="avatar d-inline-block align-top">
-            <img
-              src="./assets/assets/avatar.png"
-              alt=""
-              srcset=""
-              width="80px"
-            />
-          </div>
-          <div class="avatar d-inline-block">
-            <p class="ms-2 align-top text-bg-secondary p-2">Strive Student</p>
-            <p class="ms-2 align-top">Language:</p>
-            <div class="dropdown mb-2">
-              <button
-                class="btn dropdown-toggle text-white bg-dark border ms-2 align-top mb-3"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                English
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Italiano</a></li>
-                <li><a class="dropdown-item" href="#">Tedesco</a></li>
-                <li><a class="dropdown-item" href="#">Spagnolo</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="border-top">
-            <p class="p-1">Maturity Setting:</p>
-            <p class="ms-2 align-top text-bg-secondary p-2">
-              ALL MATURITY RATING
-            </p>
-            <p class="p-1">Show Titles all maturity rating for this profile</p>
-            <button class="p-1 bg-dark border ms-2 align-top text-white mb-3">
-              EDIT
-            </button>
-          </div>
-          <div class="border-top border-bottom mb-2">
-            <p class="mt-3">Autoplay controls</p>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckDefault"
+          <div class="col-12 d-flex">
+            <div class="col-5 avatar align-top">
+              <img
+                src="./assets/assets/avatar.png"
+                alt=""
+                srcset=""
+                width="100px"
               />
-              <label class="form-check-label" for="flexCheckDefault">
-                Autoplay next episode in a series on all devices
-              </label>
             </div>
+            <div class="col-7">
+              <div class="col-6 d-print-grid">
+                <p class="align-top text-bg-secondary p-2">Strive Student</p>
+                <p class="align-top">Language:</p>
+                <div class="dropdown mb-2">
+                  <button
+                    class="btn dropdown-toggle text-white bg-dark border align-top mb-3"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    English
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Italiano</a></li>
+                    <li><a class="dropdown-item" href="#">Tedesco</a></li>
+                    <li><a class="dropdown-item" href="#">Spagnolo</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="border-top">
+                <p class="p-1">Maturity Setting:</p>
+                <p class="align-top text-bg-secondary p-2">
+                  ALL MATURITY RATING
+                </p>
+                <p class="p-1">
+                  Show Titles all maturity rating for this profile
+                </p>
+                <button class="p-1 bg-dark border align-top text-white mb-3">
+                  EDIT
+                </button>
+              </div>
+              <div class="border-top border-bottom mb-2">
+                <p class="mt-3">Autoplay controls</p>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Autoplay next episode in a series on all devices
+                  </label>
+                </div>
 
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="flexCheckChecked"
-                checked
-              />
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
 
-              <label class="form-check-label mb-2" for="flexCheckChecked">
-                Autoplay previews while browsing on all devices
-              </label>
+                  <label class="form-check-label mb-2" for="flexCheckChecked">
+                    Autoplay previews while browsing on all devices
+                  </label>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="d-inline-block">
+          <div class="d-flex justify-content-center">
             <button
               class="mt-3 p1 p-1 bg-dark border ms-2 align-top text-white"
             >
